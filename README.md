@@ -1,13 +1,13 @@
-# 💳 Credit Card Fraud Detection  
+#  Credit Card Fraud Detection  
 ### Applied Machine Learning for a FinTech Use Case
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on detecting fraudulent credit card transactions using machine learning techniques.  
 The goal is to build, evaluate, and explain predictive models capable of identifying rare fraud cases in a highly imbalanced dataset, simulating a real-world FinTech scenario.
 
 
 
-## 🎯 Objectives
+##  Objectives
 - Analyze and understand patterns in credit card transaction data  
 - Handle class imbalance effectively  
 - Train and compare baseline and advanced classification models  
@@ -16,7 +16,7 @@ The goal is to build, evaluate, and explain predictive models capable of identif
 
 
 
-## 🧠 Models Used
+##  Models Used
 - **Logistic Regression** (Baseline model)  
 - **Random Forest Classifier** (Primary model)
 
@@ -24,7 +24,7 @@ Both models were trained using class-weighting strategies to address class imbal
 
 
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - Python  
 - Pandas, NumPy  
 - Matplotlib  
@@ -34,7 +34,7 @@ Both models were trained using class-weighting strategies to address class imbal
 
 
 
-## 📁 Dataset
+##  Dataset
 The dataset contains anonymized credit card transactions, where:
 - `Class = 0` → Legitimate transaction  
 - `Class = 1` → Fraudulent transaction  
@@ -45,14 +45,14 @@ Due to confidentiality, most features are PCA-transformed variables (V1–V28), 
 
 
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 - Analysis of severe class imbalance  
 - Visualization of fraud vs legitimate transactions  
 - Summary statistics of transaction amounts by class  
 
 
 
-## ⚙️ Feature Engineering
+##  Feature Engineering
 Additional features were created to enhance model performance:
 - `hour_of_day`
 - `is_night`
@@ -60,7 +60,7 @@ Additional features were created to enhance model performance:
 
 
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 Models were evaluated using:
 - Precision, Recall, F1-score  
 - Confusion Matrix  
